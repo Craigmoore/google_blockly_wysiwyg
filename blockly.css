@@ -1,0 +1,12 @@
+/* This needs to be copied into wysiwyg/editors/css folder */
+
+.blocklySvg {
+	height: 100%;
+	width: 100%;
+}
+.blocklyContainer {
+	background-color: #fff;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+}
