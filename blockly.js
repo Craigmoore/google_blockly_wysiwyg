@@ -33,10 +33,8 @@
 		runButton.bind('click', function(e) {
 			e.stopPropagation();
 			var code = Blockly.Generator.workspaceToCode('JavaScript');
-			console.log(code);
 			try {
 				eval(code);
-				init([['Hello', 'World'], ['Hello', 'World']]);
 			} catch (e) {
 				alert('Program error:\n' + e);
 			}
